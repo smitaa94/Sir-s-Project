@@ -1,7 +1,7 @@
 Feature: My validations of test me app
 
 
-@Smoke
+
 Scenario Outline: Login for testme App
 Given Test me app is launched
 Then user clicks on log in button
@@ -11,14 +11,14 @@ Examples:
 		|uname|pswrd|
 		|Lalitha|Password123|
 
-@Smoke
+
 Scenario: Search Validation in test me appp
 Given user logged in into test me app
 Then user search the products
 Then user selects the product
 Then add the product to cart
 Then user purchases the product
-@Smoke
+
 Scenario:  when where user moves to cart without adding any item in it
 Given user sign in into testme app
 Then user tries to search the particular product like headphone
